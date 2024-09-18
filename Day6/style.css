@@ -1,0 +1,56 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+html,
+body {
+  width: 100%;
+  height: 100%;
+}
+#cars {
+  display: flex;
+  width: 100%;
+  height: 100%;
+}
+
+#car1 {
+  width: 50%;
+  height: 100%;
+  background-image: url("./images/lambo.jpg");
+  background-size: cover;
+  background-position: center;
+}
+#Lambo {
+  position: relative;
+  width: 100%;
+  height: 100%;
+}
+#text1 {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  text-align: center;
+}
+
+#car2 {
+  width: 50%;
+  height: 100%;
+  background-image: url("./images/rr.jpg");
+  background-size: cover;
+  background-position: center;
+}
+#RollsRoyce {
+  position: relative;
+  width: 100%;
+  height: 100%;
+}
+#text2 {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  text-align: center;
+  color: azure;
+}
